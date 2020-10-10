@@ -483,8 +483,12 @@ Truffle is very flexible when it comes to smart contract testing, in that tests 
        ✓ testGetAdopterAddressByPetId (70ms)
        ✓ testGetAdopterAddressByPetIdInArray (89ms)
 
+     Contract: Adoption
+       adopting a pet & retrieving account addresses
+         ✓ can fetch the address of owner by petIid (45ms)
+         ✓ can fetch all owners' addresses (61ms)
 
-     3 passing (670ms)
+     5 passing (2s)
    ```
 
 ## Creating a user interface to interact with the smart contract
